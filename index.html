@@ -11,6 +11,7 @@
                   width: auto;
                   overflow: auto;
                   margin: 0 auto;
+                  background-color: powderblue;
             }
             #header{
                   width: auto;
@@ -79,65 +80,70 @@
                   background-color: #111111;
             }
             #content{
-                  width:100%;
+                  width:auto;
                   overflow: auto;
                   float: left;
+                  text-align: center;
             }
             #content-left{
                   width: 20%;
                   overflow: auto;
                   float: left;
+                  
             }
             #content-center{
                   width: 60%;
                   overflow: auto;
                   float: left;
                   margin-left: 20%;
-                  margin-right: 20%
-                  
+                  margin-right: 20%;
+                 
             }
             .column {
-            float: left;
-            width: 33.33%;
-            height: auto;
-        }
+                  float: left;
+                  width: 33.33%;
+                  height: auto;
+                 
+            }
 
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-        #content-center_left{
+            .row:after {
+                  content: "";
+                  display: table;
+                  clear: both;
+            }
+            #content-center_left{
                   overflow: auto;
                   float: right;
+                 
             }
             #content-center_right{
                   overflow: auto;
                   float: right;
+                 
             }
             #content-center_bottom{
                   overflow: auto;
                   float: left;
+                 
+            }
+            #content_bottom{
+                   width: auto;
+                  overflow: auto;
             }
             #content-right{
                   width: auto;
                   overflow: auto;
                   float: left;
+                 
             }
             #footer{
                   color: white;
                   background-color: black;
                   clear: left;
                   text-align: center;
+                
             }
-			
-			#footer11111{
-                  color: white;
-                  background-color: black;
-                  clear: left;
-                  text-align: center;
-            }
-
+		
       </style>
 </head>
 <body>
@@ -162,10 +168,10 @@
             <div id="header_bottom">
                   <div id="menu_wrapper">
                         <ul id="menu">
-                              <li><a >Home</a></li>
-                              <li><a >About</a></li>
-                              <li><a>News</a></li>
-                              <li><a >Contact</a></li>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="about.html">About</a></li>
+                              <li><a href="news.html">News</a></li>
+                              <li><a href="contact.html">Contact</a></li>
                         </ul>
                   </div>
             </div>
@@ -173,22 +179,47 @@
       <div id="content" class="row">
             <div id="content_left" class="column" style="width: 20%" > 
                   <h1 style="color: black;background-color: blue">Chatimane</h1>
-
+                   <img src="image/salman.jpg" alt="photo" width="100%" height="200">
+                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                   <img src="image/lcontent.jpg" alt="photo" width="100%" height="200">
             </div>
-            <div id="content_center" class="column" style="width: 55%">
-            <div>
-            <div id="content_center_top" class="row">
-                  <div id="content_center_left" class="column" style="width: 50%">
+            <div id="content_center" class="column" style="width: 60%">
+                  <div>
+                        <div id="content_center_top" class="row">
+                              <div id="content_center_left" class="column" style="width: 50%">
                         <h1 style="color: black;background-color: blue">Service</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                   </div>
-                  <div id="content_center_Right" class="column" style="width: 50%"><h1 style="color: black;background-color: blue">Service</h1>
+                  <div id="content_center_Right" class="column" style="width: 50%">
+                        <h1 style="color: black;background-color: blue">Service</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
             </div>
           </div>
-                  <div id="content_center_bottom" class="column" style="width: 100%"><h1 style="color: black;background-color: blue">About Us</h1>
+                  <div id="content_center_bottom"  style="width: 100%">
+                        <h1 style="color: black;background-color: blue">About Us</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
             </div>
+            <div style="background-color: gray">
+                  <h1 >Partners</h1>
+            </div>
+            <div id="content_bottom" class="row" style="background-color: gray"  >
+                  <div class="column">
+                        <img src="image/l1.jpg" alt="photo" width="100%" height="200">
+                  </div>
+                  <div class="column">
+                        <img src="image/l2.jpg" alt="photo" width="100%" height="200">
+                  </div>
+                   <div class="column">
+                        <img src="image/l3.jpg" alt="photo" width="100%" height="200">
+                  </div>
+                  </div>
+            </div>
+           
+         
           </div>
-          </div>
-            <div id="content_right" class="column" style="width: 20%"><h1 style="color: black;background-color: blue">Latest News</h1>
+            <div id="content_right" class="column" style="width: 20%">
+                  <h1 style="color: black;background-color: blue">Latest News</h1>
+                  <a href="news.thml"></a>
             </div>
       </div>
       <div id="footer">
